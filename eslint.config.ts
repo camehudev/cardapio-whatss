@@ -16,6 +16,12 @@ export default defineConfigWithVueTs(
     files: ['**/*.{vue,ts,mts,tsx}'],
   },
 
+  {
+    rules: {
+        'vue/multi-word-component-names': 'off'
+}
+  },
+
   globalIgnores(['**/dist/**', '**/dist-ssr/**', '**/coverage/**']),
 
   ...pluginVue.configs['flat/essential'],
