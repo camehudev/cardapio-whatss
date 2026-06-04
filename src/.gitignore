@@ -1,0 +1,42 @@
+# Logs de execução e erros
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependências do Node (Nunca envie esta pasta para o Git!)
+node_modules/
+
+# Pasta de Build / Produção (Onde o Vite gera o código final)
+dist/
+dist-ssr/
+*.local
+
+# Arquivos de configuração de editores e IDEs
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Variáveis de Ambiente e Chaves Secretas (Segurança Máxima)
+.env
+.env.development.local
+.env.development
+.env.local
+.env.production.local
+.env.production
+.env.test.local
+.env.test
+
+# TypeScript (Se usar no futuro)
+*.tsbuildinfo
