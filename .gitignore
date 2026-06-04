@@ -8,6 +8,7 @@ pnpm-debug.log*
 
 # Dependências do Node (Nunca envie esta pasta para o Git!)
 node_modules/
+node_modules
 
 # Pasta de Build / Produção (Onde o Vite gera o código final)
 dist/
