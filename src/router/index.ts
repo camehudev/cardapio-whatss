@@ -10,11 +10,11 @@ const router = createRouter({
       name: 'cardapio',
       component: CardapioView,
     },
-     {
-      path: '/cardapio',
-      name: 'cardapio',
-      component: CardapioView,
-    },
+    //  {
+    //   path: '/cardapio',
+    //   name: 'cardapio',
+    //   component: CardapioView,
+    // },
     // {
     //   path: '/',
     //   name: 'about',
