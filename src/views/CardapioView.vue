@@ -13,7 +13,7 @@ const tabs = ref([
     {id: 3, title: 'Strognoff de Frango', content: 'Peito de frango em tiras, molho de strognoff com champignon, ervilha, muçarela, cheiro verde e oregano. Acompanha batata palha.', value: 'R$ 26,90' },
     {id: 4, title: 'Strognoff de Carne(Alcatra/Contra-Filé)', content: 'Alcatra ou contra-filé em tiras, molho de strognoff com champignon, ervilha, muçarela, cheiro verde e oregano. Acompanha batata palha', value: 'R$ 26,90' },    
     {id: 5, title: 'Frango com Milho', content: 'Content 6', value: 'R$ 29,95' },
-    {id: 6, title: 'Vegetariana', content: 'Content 7', value: 'R$ 29,96' },
+    // {id: 6, title: 'Vegetariana', content: 'Content 7', value: 'R$ 29,96' },
     {id: 6, title: 'Frango com Milho', content: 'Peito de frango em cubos,milho, molho branco artesanal da casa, requeijão Miramar, muçarela, cheiro verde e oregano. Acompanha batata palha.', value: 'R$ 26,90' },
     {id: 7, title: 'Estrognoff de Camarão', content: 'Camarão, molho de tomate,creme de leite, requeijão Miramar, cheddar, champignon, cheiro verde e oregano. Acompanha batata palha.', value: 'R$ 29,90' },
     
@@ -39,8 +39,18 @@ const tabs = ref([
 
     <div class="items-cardapio">
       <div style="padding: 0.5rem; color: #ffffff;">
-        <h1>CARDÁPIO</h1>
-        <p style="padding-top: 0.5rem;">Bem-vindo! Aqui você encontrará uma variedade de sabores deliciosos para escolher. Explore nossas opções e faça seu pedido!</p>
+        <div style="display:flex; align-items: center;">
+          <div>
+            <img src="./../assets/cardapio.png" alt="Logo" style="width: 40px; height: auto; margin-right: 1rem;" >
+          </div>
+          <div>
+            <h1>CARDÁPIO</h1>           
+          </div>
+
+         
+        </div>
+         <p style="padding-top: 0.5rem;">Bem-vindo! Aqui você encontrará uma variedade de sabores deliciosos para escolher. Explore nossas opções e faça seu pedido!</p>
+        
       </div>
 
       <div style="padding: 0.5rem; ">      
