@@ -44,7 +44,7 @@ const tabs = ref([
             <img src="./../assets/cardapio.png" alt="Logo" style="width: 40px; height: auto; margin-right: 1rem;" >
           </div>
           <div>
-            <h1>CARDÁPIO</h1>           
+            <h1>PROVE SABOR</h1>           
           </div>
 
          
