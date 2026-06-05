@@ -12,10 +12,10 @@ const tabs = ref([
     {id: 2, title: 'Costela Cremosa', content: 'Costela bovina desfiada,tomate,pimentão,requeijão Miramar, muçarela e cheddar,oregano', value: 'R$ 26,9' },
     {id: 3, title: 'Strognoff de Frango', content: 'Peito de frango em tiras, molho de strognoff com champignon, ervilha, muçarela, cheiro verde e oregano. Acompanha batata palha.', value: 'R$ 26,90' },
     {id: 4, title: 'Strognoff de Carne(Alcatra/Contra-Filé)', content: 'Alcatra ou contra-filé em tiras, molho de strognoff com champignon, ervilha, muçarela, cheiro verde e oregano. Acompanha batata palha', value: 'R$ 26,90' },    
-    {id: 5, title: 'Frango com Milho', content: 'Content 6', value: 'R$ 29,95' },
+    // {id: 5, title: 'Frango com Milho', content: 'Content 6', value: 'R$ 29,95' },
     // {id: 6, title: 'Vegetariana', content: 'Content 7', value: 'R$ 29,96' },
-    {id: 6, title: 'Frango com Milho', content: 'Peito de frango em cubos,milho, molho branco artesanal da casa, requeijão Miramar, muçarela, cheiro verde e oregano. Acompanha batata palha.', value: 'R$ 26,90' },
-    {id: 7, title: 'Estrognoff de Camarão', content: 'Camarão, molho de tomate,creme de leite, requeijão Miramar, cheddar, champignon, cheiro verde e oregano. Acompanha batata palha.', value: 'R$ 29,90' },
+    {id: 5, title: 'Frango com Milho', content: 'Peito de frango em cubos,milho, molho branco artesanal da casa, requeijão Miramar, muçarela, cheiro verde e oregano. Acompanha batata palha.', value: 'R$ 26,90' },
+    {id: 6, title: 'Estrognoff de Camarão', content: 'Camarão, molho de tomate,creme de leite, requeijão Miramar, cheddar, champignon, cheiro verde e oregano. Acompanha batata palha.', value: 'R$ 29,90' },
     
 ]);
 
