@@ -9,22 +9,22 @@ const tabsCaldos = ref([
 
 const tabs = ref([
     {id: 1, title: 'Brocólis com Bacon', content: 'Brocólis,bacon,molho branco da casa, Requeijão Miramar, Muçarela,cheddar,orégano,salsinha e cebolinha. Acompanha batata palha.', value: 'R$ 26,90' },
-    {id: 2, title: 'Costela Cremosa', content: 'Costela bovina desfiada,tomate,pimentão,requeijão Miramar, muçarela e cheddar,oregano', value: 'R$ 26,9' },
-    {id: 3, title: 'Strognoff de Frango', content: 'Peito de frango em tiras, molho de strognoff com champignon, ervilha, muçarela, cheiro verde e oregano. Acompanha batata palha.', value: 'R$ 26,90' },
-    {id: 4, title: 'Strognoff de Carne(Alcatra/Contra-Filé)', content: 'Alcatra ou contra-filé em tiras, molho de strognoff com champignon, ervilha, muçarela, cheiro verde e oregano. Acompanha batata palha', value: 'R$ 26,90' },    
+    {id: 2, title: 'Costela Cremosa', content: 'Costela bovina desfiada,tomate,pimentão,requeijão Miramar, muçarela e cheddar,oregano', value: 'R$ 26,90' },
+    {id: 3, title: 'Strogonoff de Frango', content: 'Peito de frango em tiras, molho de strognoff com champignon, ervilha, muçarela, cheiro verde e oregano. Acompanha batata palha.', value: 'R$ 26,90' },
+    {id: 4, title: 'Strogonoff de Carne(Alcatra/Contra-Filé)', content: 'Alcatra ou contra-filé em tiras, molho de strognoff com champignon, ervilha, muçarela, cheiro verde e oregano. Acompanha batata palha', value: 'R$ 28,90' },    
     // {id: 5, title: 'Frango com Milho', content: 'Content 6', value: 'R$ 29,95' },
     // {id: 6, title: 'Vegetariana', content: 'Content 7', value: 'R$ 29,96' },
-    {id: 5, title: 'Frango com Milho', content: 'Peito de frango em cubos,milho, molho branco artesanal da casa, requeijão Miramar, muçarela, cheiro verde e oregano. Acompanha batata palha.', value: 'R$ 26,90' },
-    {id: 6, title: 'Estrognoff de Camarão', content: 'Camarão, molho de tomate,creme de leite, requeijão Miramar, cheddar, champignon, cheiro verde e oregano. Acompanha batata palha.', value: 'R$ 29,90' },
+    {id: 5, title: 'Frango com Milho', content: 'Peito de frango em cubos,milho, molho branco artesanal da casa, requeijão Miramar, muçarela, cheiro verde e oregano. Acompanha batata palha.', value: 'R$ 24,90' },
+    {id: 6, title: 'Estrogonoff de Camarão', content: 'Camarão, molho de tomate,creme de leite, requeijão Miramar, cheddar, champignon, cheiro verde e oregano. Acompanha batata palha.', value: 'R$ 39,90' },
     
 ]);
 
   const tabsMacarrao = ref([
-    {id: 1, title: 'Macarrao a Bolonhesa', content: 'Macarrão a sua escolha,molho de tomate,molho branco artesanal, muçarela e carne moida com tempero especial', value: 'R$ 26,90' },
+    {id: 1, title: 'Macarrao a Bolonhesa', content: 'Macarrão a sua escolha,molho de tomate,molho branco artesanal, muçarela e carne moida com tempero especial', value: 'R$ 24,90' },
     {id: 2, title: 'Brocólis com Bacon', content: 'Macarrão a sua escolha,molho de tomate,molho branco artesanal, muçarela e brocólis', value: 'R$ 26,90' },
-    {id: 3, title: 'Etrognoff de Carne', content: 'Macarrão a sua escolha, alcatra ou contra-filé, molho de strognoff com champignon, ervilha, muçarela, cheiro verde e oregano', value: 'R$ 26,90' },
-    {id: 4, title: 'Estrognoff de Frango', content: 'Macarrão a sua escolha,peito de frango em tiras, molho de strognoff com champignon, ervilha, muçarela, cheiro verde e oregano', value: 'R$ 26,90' },
-    {id: 5, title: 'Estrogonoff de Camarão', content: 'Macarrão a sua escolha, camarão, molho de strognoff com champignon, ervilha, muçarela, cheiro verde e oregano', value: 'R$ 26,90' },
+    {id: 3, title: 'Etrogonoff de Carne', content: 'Macarrão a sua escolha, alcatra ou contra-filé, molho de strognoff com champignon, ervilha, muçarela, cheiro verde e oregano', value: 'R$ 26,90' },
+    {id: 4, title: 'Estrogonoff de Frango', content: 'Macarrão a sua escolha,peito de frango em tiras, molho de strognoff com champignon, ervilha, muçarela, cheiro verde e oregano', value: 'R$ 26,90' },
+    {id: 5, title: 'Estrogonoff de Camarão', content: 'Macarrão a sua escolha, camarão, molho de strognoff com champignon, ervilha, muçarela, cheiro verde e oregano', value: 'R$ 39,00' },
 ]);
 
   const tabsBebidas = ref([
